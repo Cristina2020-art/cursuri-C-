@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs C++ pentru ÎNCEPĂTORI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Curs C++ pentru ÎNCEPĂTORI</h1>
+        <nav>
+            <ul>
+                <li><a href="#acasa">ACASĂ</a></li>
+                <li><a href="#despre">DESPRE MINE</a></li>
+                <li><a href="#lectii">LECTII</a></li>
+                <li><a href="#resurse">RESURSE UTILE</a></li>
+                <li><a href="#linkuri">LINKURI</a></li>
+                <li><a href="#galerie">GALERIE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="acasa">
+        <h2>Bine ați venit!</h2>
+        <p>Începeți aventura în programare cu cursul acesta de C++ .</p>
+        <p>Acest curs este conceput pentru toți cei care doresc să învețe programare de la zero sau să-și îmbunătățească abilitățile existente.</p>
+    </section>
+
+    <section id="despre">
+        <h2>Despre mine</h2>
+        <p>Ma numesc VAIDEAN CRISTINA MIHAELA și sunt pasionata de programare. Am creat acest site pentru a împărtăși cunoștințele mele despre C++ cu voi.</p>
+        <p>Misiunea mea este să fac programarea accesibilă și ușor de înțeles pentru toți.</p>
+        <img src="poza.jpg" width="300px" alt="Poza cu mine" class="imagine-rotunda">
+    </section>
+
+    <section id="lectii">
+        <h2>Lectii</h2>
+        <div class="curs">
+            <h3>Introducere în C++</h3>
+            <p>Învață elementele de bază ale limbajului C++ și începe să scrii cod într-un mod eficient și corect.</p>
+            <img src="poze/pagina1.PNG" width="600px" alt="Poze" class="poze">
+            <img src="poze/pagina2.PNG" width="600px"alt="Poze"class="poze" >
+            <img src="poze/pagina3.PNG" width="600px"alt="Poze" class="poze" >
+            <img src="poze/pagina4.PNG" width="600px" alt="Poze"class="poze" >
+            <img src="poze/pagina5.PNG" width="600px" alt="Poze" class="poze">
+            <img src="poze/pagina6.PNG" width="600px" alt="Poze"class="poze" >
+        </div>
+
+        <div class="curs">
+            <h3>Structuri de date în C++</h3>
+            <p>Explorează structurile de date esențiale din C++ și înțelege cum să le folosești în programele tale.</p>
+            <li><a href="https://cplusplus.com/doc/tutorial-ro/structures/">Structuri de date</a> - Material util de invatare</li>
+        </div>
+    </section>
+
+    <section id="resurse">
+        <h2>Resurse utile</h2>
+        <ul>
+            <li><a href="https://www.cplusplus.com/">cplusplus.com</a> - Documentație și resurse pentru C++</li>
+            <li><a href="https://www.learncpp.com/">LearnCpp.com</a> - Tutoriale gratuite pentru începători și avansați</li>
+            <li><a href="https://www.w3schools.com/cpp//">w3schools.com</a> - Tutoriale gratuite pentru începători și avansați</li>
+            <li><a href="https://www.onlinegdb.com/online_c++_compiler/">Compilator online</a> - Compilarea codului in C++</li>
+            <li><a href="https://www.codeblocks.org/downloads/">CodeBlocks</a> - Compilator </li>
+            <li><a href="https://sites.google.com/site/stanciu4info4tic/home/">Alte resurse utile pentru a invata C++</a> - Resurse</li>
+        </ul>
+    </section>
+
+    <section id="linkuri">
+        <h2>Linkuri utile</h2>
+        <ul>
+            <li><a href="https://stackoverflow.com/questions/tagged/cpp">Stack Overflow - C++</a> - Întrebări și răspunsuri despre C++</li>
+            <li><a href="https://www.reddit.com/r/cpp/">Reddit - r/cpp</a> - Comunitatea C++ pe Reddit</li>
+            <li><a href="https://www.youtube.com/watch?v=zIhhO2DcW2s/ ">Video</a> - Pentru instalare CodeBlocks</li>
+        </ul>
+    </section>
+
+    <section id="galerie">
+        <h2>Galerie</h2>
+        <div class="imagini">
+            <img src="imagini/OperatiiCuVariabile.PNG" alt="C++ Imagini">
+            <img src="imagini/TipuriDeDate.PNG" alt="C++ Imagini">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Dacă aveți întrebări sau feedback, nu ezitați să mă contactați:</p>
+        <p>Va pot pune la dispozitie un material ca sa puteti sa invatati despre limbajul de programare C++ si algoritmica.</p>
+        <p>Va atasez cuprinsul materialului la sectiunea Lectii.</p>
+        <p>Email: criss26.2006@yahoo.com sau cristinnav36@gmail.com</p>
+        <p><a href="https://www.facebook.com/?locale=ro_RO">Facebook</a></p>
+
+        <h2>Formular de contact:</h2>
+
+        <form id="contact-form">
+            <div>
+                <label for="nume">Nume:</label>
+                <input type="text" id="nume" name="nume" required><br><br>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+            </div>
+            <div>
+                <label for="mesaj">Mesaj:</label>
+                <textarea id="mesaj" name="mesaj" rows="4" required></textarea><br><br>
+            </div>
+            <button type="submit">Trimite</button>
+        </form>
+        <div id="rezultat"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Curs C++.Toate drepturile sunt rezervate.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

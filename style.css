@@ -1,0 +1,174 @@
+/* Stilizare generală */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #98cad6;
+}
+
+header {
+    background-color: #1cafd4;
+    color: #0f2bac;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    color: #2c1994;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #180ea5;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10px 20px; /* Reducerea padding-ului pentru a reduce spațiul între secțiuni */
+    margin-bottom: 10px; /* Reducerea margin-bottom pentru a reduce spațiul între secțiuni */
+}
+
+section h2 {
+    font-size: 24px;
+    color: #19a32b;
+    margin-top: 0; /* Eliminarea margin-top implicită pentru a reduce spațiul între secțiuni */
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px; /* Reducerea margin-bottom pentru a reduce spațiul între paragrafe */
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+section ul li {
+    margin-bottom: 5px; /* Reducerea margin-bottom pentru a reduce spațiul între elementele listei */
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+section ul li a:hover {
+    text-decoration: underline;
+}
+
+.imagini {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagini img {
+    width: 600px;
+    height: 600px;
+    margin: 10px;
+}
+
+.imagine-rotunda {
+    border-radius: 50%;
+
+}
+
+.marita {
+    max-width: 50%;
+    height: auto;
+}
+
+.poze{
+    padding:10px;
+}
+
+#contact-form {
+    max-width: 400px;
+    margin: 0;
+}
+
+#contact-form div {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form textarea {
+    resize: vertical;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background-color: rgb(40, 143, 168);
+    color: #140e70;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button :hover{
+    background-color: #2980b9;
+}
+
+#rezultat {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Stiluri specifice dispozitivelor mobile */
+
+@media only screen and (max-width: 600px) {
+    /* Adaugă aici stilurile pentru dispozitive mobile */
+}
+
+/* Stiluri specifice tabletelor */
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adaugă aici stilurile pentru tablete */
+}
+
+/* Stiluri specifice desktopurilor */
+
+@media only screen and (min-width: 1025px) {
+    /* Adaugă aici stilurile pentru desktopuri */
+}
+
+footer {
+    background-color: #518eb1;
+    color: #2b225e;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
